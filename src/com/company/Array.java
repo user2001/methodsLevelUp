@@ -6,8 +6,9 @@ import java.util.Random;
 public class Array {
     int[] array;
 
-    public Array(int lengthOfArray) {
-        this.array = new int[lengthOfArray];
+    public Array(int [] array) {
+        this.array = array;
+
     }
 
     public void fillEvenNumbers() {
@@ -50,7 +51,7 @@ public class Array {
 
     public void evenIndex() {
         for (int i = 0; i < array.length; i++) {
-            if (i % 2 == 0 && i != 0) {
+            if (i % 2 == 0) {
                 System.out.print(array[i] + " ");
             }
         }

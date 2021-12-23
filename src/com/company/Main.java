@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Array array = new Array(100);
+        int [] ar=new int[100];
+        Array array = new Array(ar);
         array.fillEvenNumbers();
         array.fillRandomNumbers();
         array.average();
