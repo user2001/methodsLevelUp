@@ -6,9 +6,8 @@ import java.util.Random;
 public class Array {
     int[] array;
 
-    public Array(int [] array) {
+    public Array(int[] array) {
         this.array = array;
-
     }
 
     public void fillEvenNumbers() {
